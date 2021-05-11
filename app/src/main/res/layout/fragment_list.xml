@@ -7,8 +7,18 @@
     tools:context=".listFragment">
 
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="5dp"
+        android:text="Liste des taches" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listTache"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        />
 </LinearLayout>
